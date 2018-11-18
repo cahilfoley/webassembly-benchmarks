@@ -4,7 +4,7 @@ const path = require('path')
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'browser.bundle.js',
+    filename: 'index.js',
     path: path.resolve(__dirname, 'dist')
   },
   devtool: 'inline-source-map',
@@ -19,6 +19,10 @@ module.exports = {
       {
         from: 'src/wasm/*.wasm',
         to: 'wasm/[name].wasm'
+      },
+      {
+        from: 'src/index.html',
+        to: 'index.html'
       }
     ])
   ],
