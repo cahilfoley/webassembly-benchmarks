@@ -12,7 +12,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@babel/runtime": "^7.1.5"
+    "@babel/runtime": "^7.1.5",
+    "gpu.js": "^1.10.4",
+    "grommet": "^2.0.1",
+    "grommet-icons": "^3.2.1",
+    "polished": "^2.3.0",
+    "styled-components": "^4.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",

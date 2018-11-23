@@ -10,11 +10,11 @@ export default async function() {
 
   return {
     'JS Loop': fibonacciLoop,
-    'JS Recurse': fibonacciRecurse,
+    // 'JS Recurse': fibonacciRecurse,
     'JS Memoized': fibonacciMemoized,
     'WASM Loop': wasm._fibonacciLoop,
-    'WASM Recurse': wasm._fibonacciRecurse,
-    'WASM Memoized': wasm._fibonacciMemoized,
-    'WASM Matrix': wasm._fibonacciMatrix
+    // 'WASM Recurse': wasm._fibonacciRecurse,
+    'WASM Memoized': wasm._fibonacciMemoized
+    // 'WASM Matrix': wasm._fibonacciMatrix
   }
 }
