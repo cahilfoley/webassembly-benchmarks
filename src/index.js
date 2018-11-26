@@ -18,6 +18,8 @@ async function main() {
     args: createMatrixArgs(512)
   }
 
+  window.set = set
+
   const suite = await createSuite(
     { args: set.args, initCount: 5, label: set.label },
     set.tests,
